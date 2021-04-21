@@ -43,4 +43,3 @@ function blog_register_scripts(){
 } 
 
 add_action( 'wp_enqueue_scripts', 'blog_register_scripts') ;
-?>

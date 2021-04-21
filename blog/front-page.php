@@ -14,7 +14,7 @@ get_header();
             <div class="col-lg-4 col-md-12 mb-4">
                 <!--Featured image-->
                 <div class="view overlay hm-white-slight rounded z-depth-2 mb-4">
-                    <?php the_post_thumbnail('medium-large', array('class' => 'img-fluid')); ?>
+                <img src="<?php the_post_thumbnail_url(); ?>" class="card-img-top" style="" alt="...">
                     <a href="<?php echo get_permalink() ?>">
                         <div class="mask"></div>
                     </a>
